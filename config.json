@@ -1,0 +1,45 @@
+{
+    "chain": "arbitrum",
+    "protocol": "uniswap_v3",
+    "pool_fee_tier_bps": 500,
+    "base_token": "WETH",
+    "quote_token": "USDC",
+    "data_granularity": "5m",
+    "rsi_period": 14,
+    "rsi_lower_band": 45,
+    "rsi_upper_band": 55,
+    "allocation_pct": "0.95",
+    "max_slippage_pct": "0.003",
+    "max_price_impact_pct": "0.01",
+    "max_estimated_price_impact_bps": 100,
+    "min_trade_value_usd": "1",
+    "max_gas_ratio": "0.05",
+    "min_source_amount_weth": "0.0005",
+    "min_source_amount_usdc": "1",
+    "cooldown_candles": 1,
+    "halt_on_repeated_failures": false,
+    "max_consecutive_failed_swaps": 3,
+    "force_action": "",
+    "force_action_amount_usd": "2",
+    "token_funding": [
+        {
+            "symbol": "WETH",
+            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "chain": "arbitrum",
+            "amount": "3",
+            "amount_type": "usd"
+        },
+        {
+            "symbol": "USDC",
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "chain": "arbitrum",
+            "amount": "3",
+            "amount_type": "usd"
+        }
+    ],
+    "anvil_funding": {
+        "ETH": 10,
+        "WETH": 2,
+        "USDC": 10000
+    }
+}

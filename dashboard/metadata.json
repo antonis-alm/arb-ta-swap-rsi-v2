@@ -1,0 +1,5 @@
+{
+    "display_name": "Arb-TA-Swap-RSI-v2",
+    "description": "RSI regime-flip dashboard for Arbitrum WETH/USDC Uniswap V3 swaps.",
+    "icon": "📈"
+}
